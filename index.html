@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Security Scan</title>
+
+<style>
+body{
+    background:black;
+    color:lime;
+    font-family:monospace;
+    text-align:center;
+    padding-top:100px;
+}
+
+#box{
+    border:2px solid lime;
+    padding:40px;
+    width:500px;
+    margin:auto;
+    font-size:20px;
+}
+</style>
+</head>
+
+<body>
+
+<div id="box">
+    <p id="text">Scanning your device...</p>
+</div>
+
+<script>
+
+let text = document.getElementById("text");
+
+setTimeout(()=>{
+text.innerHTML="kamu jelek";
+},2000);
+
+setTimeout(()=>{
+text.innerHTML="Ga ada yang mau ngentot sama kamu";
+},4000);
+
+setTimeout(()=>{
+text.innerHTML="BERCANDA KONTOL -HARRIS GANTENG 2026-";
+},6000);
+
+</script>
+
+</body>
+</html>
